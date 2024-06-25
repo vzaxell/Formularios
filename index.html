@@ -1,0 +1,53 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles.css" />
+        <h1>Videojuegos</h1>
+    </header>
+    <body>
+        <div class="contenido">
+            <form class="forma">
+                <br>
+                    <h2>Favorito  <input></h2>
+                    <h2>Consola Favorita</h2>
+                    <label>
+                        Switch 
+                        <input type="radio" name="cf" id="1">
+                    </label>
+                    <label>
+                        XBOX
+                        <input type="radio" name="cf" id="1">
+                    </label>
+                    <label>
+                        PS5 
+                        <input type="radio" name="cf" id="1">
+                    </label>
+                    <label>
+                        PC 
+                    <input type="radio" name="cf" id="1">
+                    </label>
+                    <label>
+                        Otro 
+                    <input type="radio" name="cf" id="1">
+                    </label>
+                <br>        
+                    <br>
+                <fieldset>
+                    <legend><h2>¿Dónde has jugado?</h2></legend>
+                    <div class="columna-conttenido">
+                        <label><input type="checkbox" name="console-location" value="Switch"> Switch</label>
+                        <label><input type="checkbox" name="console-location" value="PS5"> PS5</label>
+                        <label><input type="checkbox" name="console-location" value="Xbox"> Xbox</label>
+                        <label><input type="checkbox" name="console-location" value="PC"> PC</label>
+                        <label><input type="checkbox" name="console-location" value="Mobile"> Mobil</label>
+                        <label><input type="checkbox" name="console-location" value="Other"> Otro</label>
+                    </div>
+                </fieldset>
+                <br>
+                <label for="last-played"><h2>¿Cuando fue la ultima vez que jugaste?</h2></label>
+                    <input type="date" id="last-played" name="last-played">
+            </form>
+            <br>
+            <button type="submit">Guardar</button>
+        </div>
+    </body>
+</html>
